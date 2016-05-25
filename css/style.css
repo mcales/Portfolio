@@ -1,0 +1,95 @@
+*html{
+	box-sizing: border-box;
+}
+*,*:before, *:after{
+	box-sizing: inherit;
+}
+body {
+	text-align:center;
+	font-family:'Droid-Sans', sans-serif;
+	font-size:16px;
+	color:#838994;
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
+}
+ul{
+	list-style-type:none;
+	padding-left:0;
+}
+.content {
+	width: 970px;
+	margin:0 auto;
+}
+header{
+	background-image: url('../images/backsplash.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	padding-bottom: 10rem;
+	padding-top:1rem;
+}
+.fname{
+	float:left;
+	margin-left:1rem;
+	font-family:'Lato', sans-serif;
+	color:#DAEBEE;
+}
+.lname{
+	float:left;
+	margin-left:-1rem;
+	padding-top:2rem;
+	font-family:'Lato', sans-serif;
+	color:#DAEBEE;
+}
+.about-header{
+	font-family:'Lato', sans-serif;
+	color:#DAEBEE;
+}
+.about-me{
+	margin-top:30rem;
+	margin-bottom:5rem;
+	font-size:150%;
+	color:#DAEBEE;
+}
+footer{
+	clear:both;
+	background:#609098;
+	background-size:cover;
+	margin-left: 0;
+	margin-right: 0;
+	color:#DAEBEE;
+	padding-top:.5rem;
+	padding-bottom:1rem;
+}
+footer > div > ul> li{
+	padding: .5rem;
+	display:inline-block;
+	border: 1px solid #DAEBEE;
+	border-radius: 20px;
+	background:#DAEBEE;
+}
+.fa-facebook{
+	color:#4c66a4;
+}
+.fa-envelope{
+	color:#609098;
+}
+@media only screen and (max-width: 1030px) {
+body{
+	margin:0 auto;
+}
+.about-me{
+	max-width:90%;
+	margin-top:15rem;
+	margin-left:auto;
+	margin-right:auto;
+}
+.projects > ul > li > a > img{
+	width:80%;
+	margin:0 auto;
+}
+.projects > ul > li > img{
+	width:80%;
+	margin:0 auto;
+}
+}
